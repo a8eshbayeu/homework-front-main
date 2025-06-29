@@ -4,7 +4,7 @@ type AddressType = {
 };
 
 type UserType = {
-  id: number;// ПРИДЕТСЯ САМОМУ)
+    id: number;// ПРИДЕТСЯ САМОМУ)
     name: string;
     age: number;
     address: AddressType;
