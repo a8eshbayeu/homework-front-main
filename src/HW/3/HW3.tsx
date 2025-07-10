@@ -21,9 +21,9 @@ export const HW3 = () => {
     };
 
     const handleSave = () => {
-        if (currentText.trim() !== '')// ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
+        if (currentText.trim() !== '') {// ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
             setTexts([currentText, ...texts])
-            setCurrentText('')// А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
+            setCurrentText('')}// А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
     };
 
     return (
